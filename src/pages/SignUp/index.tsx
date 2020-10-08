@@ -10,7 +10,7 @@ import Input from '../../components/Input';
 import Button from '../../components/Button';
 import imgLogo from '../../assets/logo.svg';
 
-const SigIn: React.FC = () => {
+const SignUp: React.FC = () => {
   const formRef = useRef<FormHandles>(null);
 
   const handleSubmit = useCallback(async (data: object) => {
@@ -61,4 +61,4 @@ const SigIn: React.FC = () => {
     </Container>
   );
 };
-export default SigIn;
+export default SignUp;
